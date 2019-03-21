@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-rootProject.name = 'rhythm'
+rootProject.name = 'fineract-cn-rhythm'
 
 includeBuild 'api'
 includeBuild 'spi'

@@ -35,13 +35,13 @@ apply from: '../shared.gradle'
 dependencies {
     compile(
             [group: 'org.springframework.cloud', name: 'spring-cloud-starter-feign'],
-            [group: 'org.apache.fineract.cn', name: 'api', version: versions.frameworkapi],
+            [group: 'com.github.mobjex', name: 'fineract-cn-api', version: versions.frameworkapi],
             [group: 'org.hibernate', name: 'hibernate-validator', version: versions.validator],
             [group: 'org.hibernate', name: 'hibernate-validator-annotation-processor', version: versions.validator]
     )
 
     testCompile(
-            [group: 'org.apache.fineract.cn', name: 'test', version: versions.frameworktest],
+            [group: 'com.github.mobjex', name: 'fineract-cn-test', version: versions.frameworktest],
     )
 }
 

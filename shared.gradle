@@ -15,20 +15,20 @@
  * limitations under the License.
  */
 
-group 'org.apache.fineract.cn.rhythm'
-version '0.1.0-BUILD-SNAPSHOT'
+group 'com.github.mobjex.fineract-cn-rhythm'
+version 'develop-SNAPSHOT'
 
 ext.versions = [
-        frameworkapi : '0.1.0-BUILD-SNAPSHOT',
-        frameworklang : '0.1.0-BUILD-SNAPSHOT',
-        frameworkasync : '0.1.0-BUILD-SNAPSHOT',
-        frameworkcassandra : '0.1.0-BUILD-SNAPSHOT',
-        frameworkmariadb : '0.1.0-BUILD-SNAPSHOT',
-        frameworkcommand : '0.1.0-BUILD-SNAPSHOT',
-        frameworktest: '0.1.0-BUILD-SNAPSHOT',
-        frameworkanubis: '0.1.0-BUILD-SNAPSHOT',
-        frameworkpermittedfeignclient: '0.1.0-BUILD-SNAPSHOT',
-        identity:  '0.1.0-BUILD-SNAPSHOT',
+        frameworkapi : 'develop-SNAPSHOT',
+        frameworklang : 'develop-SNAPSHOT',
+        frameworkasync : 'develop-SNAPSHOT',
+        frameworkcassandra : 'develop-SNAPSHOT',
+        frameworkmariadb : 'develop-SNAPSHOT',
+        frameworkcommand : 'develop-SNAPSHOT',
+        frameworktest: 'develop-SNAPSHOT',
+        frameworkanubis: 'develop-SNAPSHOT',
+        frameworkpermittedfeignclient: 'develop-SNAPSHOT',
+        identity:  'develop-SNAPSHOT',
         validator : '5.3.0.Final'
 ]
 
@@ -45,6 +45,7 @@ tasks.withType(JavaCompile) {
 repositories {
     jcenter()
     mavenLocal()
+    maven { url 'https://jitpack.io' }
 }
 
 dependencyManagement {

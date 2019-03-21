@@ -1,3 +1,5 @@
+[![Release](https://jitpack.io/v/mobjex/fineract-cn-rhythm.svg)](https://jitpack.io/#mobjex/fineract-cn-rhythm)
+
 # Apache Fineract CN Rhythm
 
 This project provides a heart beatPublish for other services which need to start jobs to be executed once and only once at a defined time.

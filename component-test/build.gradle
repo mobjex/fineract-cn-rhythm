@@ -39,12 +39,12 @@ apply plugin: 'org.asciidoctor.convert'
 
 dependencies {
     compile(
-            [group: 'org.apache.fineract.cn.rhythm', name: 'api', version: project.version],
-            [group: 'org.apache.fineract.cn.rhythm', name: 'service', version: project.version],
-            [group: 'org.apache.fineract.cn.anubis', name: 'test', version: versions.frameworkanubis],
-            [group: 'org.apache.fineract.cn', name: 'api', version: versions.frameworkapi],
-            [group: 'org.apache.fineract.cn', name: 'test', version: versions.frameworktest],
-            [group: 'org.apache.fineract.cn', name: 'lang', version: versions.frameworklang],
+            [group: 'com.github.mobjex.fineract-cn-rhythm', name: 'api', version: project.version],
+            [group: 'com.github.mobjex.fineract-cn-rhythm', name: 'service', version: project.version],
+            [group: 'com.github.mobjex.fineract-cn-anubis', name: 'test', version: versions.frameworkanubis],
+            [group: 'com.github.mobjex', name: 'fineract-cn-api', version: versions.frameworkapi],
+            [group: 'com.github.mobjex', name: 'fineract-cn-test', version: versions.frameworktest],
+            [group: 'com.github.mobjex', name: 'fineract-cn-lang', version: versions.frameworklang],
             [group: 'org.springframework.boot', name: 'spring-boot-starter-test'],
             [group: 'org.springframework.restdocs', name: 'spring-restdocs-mockmvc'],
             [group: 'junit', name: 'junit', version: '4.12']

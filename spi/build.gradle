@@ -35,15 +35,15 @@ apply from: '../shared.gradle'
 dependencies {
     compile(
             [group: 'org.springframework.cloud', name: 'spring-cloud-starter-feign'],
-            [group: 'org.apache.fineract.cn', name: 'api', version: versions.frameworkapi],
-            [group: 'org.apache.fineract.cn', name: 'cassandra', version: versions.frameworkcassandra],
-            [group: 'org.apache.fineract.cn', name: 'command', version: versions.frameworkcommand],
+            [group: 'com.github.mobjex', name: 'fineract-cn-api', version: versions.frameworkapi],
+            [group: 'com.github.mobjex', name: 'fineract-cn-cassandra', version: versions.frameworkcassandra],
+            [group: 'com.github.mobjex', name: 'fineract-cn-command', version: versions.frameworkcommand],
             [group: 'org.hibernate', name: 'hibernate-validator', version: versions.validator],
             [group: 'org.hibernate', name: 'hibernate-validator-annotation-processor', version: versions.validator]
     )
 
     testCompile(
-            [group: 'org.apache.fineract.cn', name: 'test', version: versions.frameworktest],
+            [group: 'com.github.mobjex', name: 'fineract-cn-test', version: versions.frameworktest],
     )
 }
 
